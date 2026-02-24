@@ -3,3 +3,13 @@
 show_hidden = true
 sort_by = "natural"
 sort_dir_first = false
+
+[[plugin.prepend_fetchers]]
+id = "git"
+url = "*"
+run = "git"
+
+[[plugin.prepend_fetchers]]
+id = "git"
+url = "*/"
+run = "git"
