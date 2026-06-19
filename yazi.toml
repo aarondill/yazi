@@ -1,4 +1,4 @@
-"$schema" = "https://yazi-rs.github.io/schemas/yazi.json"
+#:schema https://yazi-rs.github.io/schemas/yazi.json
 [mgr]
 show_hidden = true
 sort_by = "natural"
@@ -8,8 +8,10 @@ sort_dir_first = false
 id = "git"
 url = "*"
 run = "git"
+group = "git"
 
 [[plugin.prepend_fetchers]]
 id = "git"
 url = "*/"
 run = "git"
+group = "git"
